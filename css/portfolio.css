@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    margin: 40px auto;
+    width: 80%;
+}
+.contact-btn {
+    text-align: right;    
+}
+
+.contact-btn a {
+    background: tomato;
+    padding: 10px 20px;
+    border-radius: 50px;
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Portfolio */
+.profile-img {
+    display: flex;
+    justify-content: center;
+}
+.profile-img img{
+    max-width: 100%;
+    width: 300px;
+    height: 300px;
+    border: 5px solid #efefef;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.portfolio {
+    margin: 60px 0;
+}
+.portfolio h2 {
+    font-size: 28px;
+}
+.portfolio-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.portfolio-list {
+    background: tomato;
+    padding: 20px;
+    margin: 10px;
+    color: #fff;
+}
+
+.portfolio-list h3{
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.skills h2 {
+    margin-bottom: 15px;
+}
+
+.skill-set ul{
+    margin-left: 30px;
+}
+
+.skill-set li {
+    padding: 5px;
+    margin: 5px;
+    background-color: bisque;
+}
+
+/* Contact Form */
+form{
+    background: tomato;
+    margin: 40px auto;
+    width: 50%;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 30px 20px;
+}
+form h2{
+    text-align: center;
+    margin-bottom: 10px;
+    color: #fff;
+}
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+button {
+    padding: 10px 20px;
+}
